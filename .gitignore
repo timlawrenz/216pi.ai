@@ -1,2 +1,6 @@
 .env
 .wrangler/
+node_modules/
+package.json
+package-lock.json
+query_stats.sh
