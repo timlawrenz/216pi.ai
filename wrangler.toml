@@ -1,6 +1,6 @@
 name = "cloudflare-static-site"
-pages_build_output_dir = "."
 compatibility_date = "2024-04-26"
+pages_build_output_dir = "."
 
 [[analytics_engine_datasets]]
 binding = "AGENT_TRACKER"
