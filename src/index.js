@@ -1,5 +1,3 @@
-import { getAssetFromKV } from '@cloudflare/kv-asset-handler';
-
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
@@ -22,21 +20,7 @@ export default {
       }
     }
 
-    // 2. Serve static assets
-    try {
-      // By default, this will serve index.html for the root '/'
-      return await getAssetFromKV(
-        {
-          request,
-          waitUntil: ctx.waitUntil.bind(ctx),
-        },
-        {
-          ASSET_NAMESPACE: env.__STATIC_CONTENT,
-          ASSET_MANIFEST: __STATIC_CONTENT_MANIFEST,
-        }
-      );
-    } catch (e) {
-      return new Response("Not Found", { status: 404 });
-    }
+    // 2. Fetch the requested asset using the new native assets binding
+    return env.ASSETS.fetch(request);
   }
 };

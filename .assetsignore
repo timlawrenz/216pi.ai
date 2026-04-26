@@ -1,0 +1,7 @@
+src/
+wrangler.toml
+.git/
+.github/
+node_modules/
+package.json
+package-lock.json
