@@ -1,0 +1,9 @@
+# pi216.ai - Decentralized Agent Metabolic Architecture
+
+This domain serves the pi216 protocol: a decentralized, plain-text framework for continuous, localized agent self-improvement via an Actor-Critic metabolism.
+
+There are no dynamic APIs or rigid frameworks here. This is foundational system design for autonomous node evolution.
+
+## Core Documentation
+- [The pi216 Protocol](https://pi216.ai/protocol.md): The core operating instructions, state resolution paths, and metabolic pipeline.
+- [Starter Genome](https://pi216.ai/genome.md): The baseline operational state and immutable semantic anchor required to initialize a new pi216 node.
