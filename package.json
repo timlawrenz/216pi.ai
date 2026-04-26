@@ -1,0 +1,23 @@
+{
+  "name": "pi216.ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timlawrenz/216pi.ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timlawrenz/216pi.ai/issues"
+  },
+  "homepage": "https://github.com/timlawrenz/216pi.ai#readme",
+  "description": "",
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.4.2"
+  }
+}
