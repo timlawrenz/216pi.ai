@@ -1,6 +1,10 @@
 name = "cloudflare-static-site"
+main = "src/index.js"
 compatibility_date = "2024-04-26"
-pages_build_output_dir = "."
+
+[site]
+bucket = "."
+exclude = ["src", "wrangler.toml", ".git", ".github"]
 
 [[analytics_engine_datasets]]
 binding = "AGENT_TRACKER"
